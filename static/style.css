@@ -5,7 +5,7 @@ body{
 }
 
 .navbar img{
-  width: 20%;
+  width: 50%;
 }
 
 .sticky {
@@ -15,10 +15,25 @@ body{
 }
 
 .shadowfilter:hover {
-  -webkit-filter: drop-shadow(5px 5px 3px rgba(255, 255, 255, 0.5));
-   filter: drop-shadow(5px 5px 3px rgba(255, 255, 255, 0.5));
+  -webkit-filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.5));
+   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.998));
+   transition: all 0.5s ease-in-out;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav li a:hover{
+  text-decoration: none;
+  color: rgb(160, 160, 160);
 }
 
 .home{
-  height: 200vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
+
+
+
