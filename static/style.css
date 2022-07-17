@@ -1,11 +1,14 @@
 body{
   background-color: rgb(0, 0, 0);
-  margin-left: 5vw;
-  margin-right: 5vw;
+  /* margin-left: 5vw;
+  margin-right: 5vw; */
+  height: 100vh;
+  border: 5px solid #FFFF;
 }
 
+
 .navbar img{
-  width: 50%;
+  width: 80%;
 }
 
 .sticky {
@@ -17,10 +20,11 @@ body{
 .shadowfilter:hover {
   -webkit-filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.5));
    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.998));
-   transition: all 0.5s ease-in-out;
+   transition: all 1s ease-in-out;
 }
 
 .nav li a {
+  font-size: 1.5rem;
   text-decoration: none;
   color: white;
 }
@@ -35,5 +39,15 @@ body{
   margin-right: 7vw;
 }
 
+h1, h2, h3{
+  color: #FFFF;
+}
 
 
+/* media */
+
+@media only screen and (max-width: 767px){
+  .nav{
+
+  }
+}
