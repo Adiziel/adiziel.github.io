@@ -3,7 +3,7 @@ body{
   /* margin-left: 5vw;
   margin-right: 5vw; */
   height: 100vh;
-  border: 5px solid #FFFF;
+  border: 2px solid #FFFF;
 }
 
 
@@ -24,7 +24,7 @@ body{
 }
 
 .nav li a {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: white;
 }
