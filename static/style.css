@@ -1,6 +1,7 @@
 body{
   background-color: rgb(0, 0, 0);
-  border: 5px solid #FFFF;
+  /* border: 0px 5px 0px 5px solid #FFFF; */
+  overflow: hidden;
 }
 
 
@@ -32,6 +33,11 @@ body{
 }
 
 .home{
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.about{
   margin-left: 7vw;
   margin-right: 7vw;
 }
